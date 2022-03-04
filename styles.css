@@ -21,12 +21,14 @@ body {
     display: inline-block;
     padding: 12px;
 }
+.navigation .active {
+    background-color: #666666;
+}
 .banner {
     background-color: pink;
     aspect-ratio: 16/4;
     display: grid;
     place-items: center;
-    background-image: url("anton-sharov-_kkx1WekVRY-unsplash.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -35,4 +37,13 @@ body {
     background-color: black;
     color: white;
     padding: 5px;
+}
+.banner.home {
+    background-image: url("anton-sharov-_kkx1WekVRY-unsplash.jpg");
+}
+.banner.about {
+    background-image: url("andre-hunter-p-I9wV811qk-unsplash.jpeg");
+}
+.banner.contact {
+    background-image: url("nathan-dumlao-6VhPY27jdps-unsplash.jpeg");
 }
