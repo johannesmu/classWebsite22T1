@@ -31,6 +31,7 @@ body {
     place-items: center;
     background-size: cover;
     background-position: center;
+    grid-column: span 2;
 }
 .banner h1 {
     font-size: 3rem;
@@ -46,4 +47,27 @@ body {
 }
 .banner.contact {
     background-image: url("nathan-dumlao-6VhPY27jdps-unsplash.jpeg");
+}
+
+.footer {
+    min-height: 100px;
+    background-color: #333333;
+}
+.social a {
+    color: yellow;
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 28px;
+}
+.social {
+    text-align: center;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    max-width: 1200px;
+    margin: auto;
 }
