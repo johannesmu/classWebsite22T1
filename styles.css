@@ -51,6 +51,7 @@ body {
 }
 .banner.contact {
     background-image: url("nathan-dumlao-6VhPY27jdps-unsplash.jpeg");
+    grid-column: span 3;
 }
 
 .footer {
@@ -73,8 +74,54 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-gap: 30px;
     max-width: 1200px;
-    margin: auto;
+    /* vw = viewport width ~ width of window */
+    min-width: 70vw;
+    margin: 30px auto;
 }
+
 .page-title {
     grid-column: span 2;
+}
+/* contact form */
+.content.contact {
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.form {
+    background-color: #cccccc;
+    grid-column-start: 2;
+    padding: 20px;
+    border-radius: 15px;
+}
+.form label {
+    display: block;
+    font-weight: bold;
+}
+.form input {
+    min-width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+.form input:focus {
+    outline-color: #333333;
+    background-color: rgb(254, 240, 224);
+}
+#message {
+    min-width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+.centre {
+    text-align: center;
+}
+.form-button {
+    background-color: #333333;
+    color: white;
+    padding: 10px;
+    min-width: 100px;
 }
