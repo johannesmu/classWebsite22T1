@@ -1,0 +1,11 @@
+@media screen and ( max-width: 576px ) {
+    .content {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+        max-width: 1200px;
+        /* vw = viewport width ~ width of window */
+       
+        margin: 30px 10px;
+    }
+}
