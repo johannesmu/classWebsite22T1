@@ -15,4 +15,22 @@
     .page-title {
         grid-column: span 1;
     }
+    .nav-button {
+        display: block;
+        margin-right: 15px;
+    }
+    .navigation {
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+    }
+    .navigation.open {
+        max-height: 50vh;
+    }
+    .navigation a {
+        display: block;
+    }
+    .header {
+        align-items: center;
+    }
 }

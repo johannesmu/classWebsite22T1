@@ -13,20 +13,31 @@ body {
 }
 .header {
     background-color:#d2fbff ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.nav-button {
+    width: 54px;
+    height: 54px;
+    font-size: 38px;
+    display: none;
 }
 .navigation {
-    background-color: #333333;
+    /* background-color: #333333; */
     text-align: center;
+    /* width: 100%; */
 }
 .navigation a {
-    color: white;
+    color: rgb(95, 95, 95);
     font-size: 120%;
     text-decoration: none;
     display: inline-block;
     padding: 12px;
 }
 .navigation .active {
-    background-color: #666666;
+    background-color: #f3f3f3;
 }
 .banner {
     background-color: pink;
