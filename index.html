@@ -14,6 +14,8 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <script src="script.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </head>
 
 <body>
@@ -29,8 +31,25 @@
         </nav>
     </header>
     <main class="content">
-        <div class="banner home">
+        <!-- <div class="banner home">
             <h1>Hello there</h1>
+        </div> -->
+        <div class="carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+            <div class="slide one">
+                <h1>One</h1>
+            </div>
+            <div class="slide two">
+                <h1>Two</h1>
+            </div>
+            <div class="slide three">
+                <h1>Three</h1>
+            </div>
+            <div class="slide four">
+                <h1>Four</h1>
+            </div>
+            <div class="slide five">
+                <h1>Five</h1>
+            </div>
         </div>
         <div class="card">
             <h3>Article Title </h3>

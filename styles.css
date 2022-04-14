@@ -136,3 +136,30 @@ body {
     padding: 10px;
     min-width: 100px;
 }
+
+.carousel {
+    grid-column: span 2;
+}
+
+.slide {
+    min-height: 40vh;
+    min-width: 100%;
+}
+.slide h1 {
+    margin: 0;
+}
+.one {
+    background-color: lightyellow;
+}
+.two {
+    background-color: lightgreen;
+}
+.three {
+    background-color: lightblue;
+}
+.four {
+    background-color: lightsalmon;
+}
+.five {
+    background-color: lightseagreen;
+}
