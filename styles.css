@@ -142,24 +142,39 @@ body {
 }
 
 .slide {
-    min-height: 40vh;
+    min-height: 60vh;
     min-width: 100%;
+    display: grid;
+    /* place-items: center; */
+    justify-items: center;
+    align-items: end;
+    background-size: cover;
+    background-position: center;
 }
 .slide h1 {
     margin: 0;
+    background-color: #333333;
+    color: #eeeeee;
+    padding: 5px;
+    margin-bottom: 15px;
 }
 .one {
     background-color: lightyellow;
+    background-image: url("slide-images/diogo-palhais-tnzzr8HpLhs-unsplash.jpg");
 }
 .two {
     background-color: lightgreen;
+    background-image: url("slide-images/jezael-melgoza-KbR06h9dNQw-unsplash.jpg");
 }
 .three {
     background-color: lightblue;
+    background-image: url("slide-images/lucas-hoang-gD6Js6K0G1s-unsplash.jpg");
 }
 .four {
     background-color: lightsalmon;
+    background-image: url("slide-images/mehdi-najjar-hvZaAiRFpzU-unsplash.jpg");
 }
 .five {
     background-color: lightseagreen;
+    background-image: url("slide-images/thomas-lefebvre-XAx6en-mZpM-unsplash.jpg");
 }
